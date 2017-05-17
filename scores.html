@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Rock, Paper, Scissors</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale = 1.0, user-scalable = no">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src='http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/script/score.js'></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.js"></script>
+  
+
+
+
+</head>
+<body onload='showScore();'>
+	<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+    </div>
+    <div id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/index.html">Home</a></li>
+      </ul>
+     </div>
+  </div>
+</nav>
+<div class="container">
+  <h2>Rock, Paper, Scissors Score table</h2>
+  <form onSubmit='showScore();' action='#'>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" id="name">
+    <label for="date">Date:</label>
+    <input type="date" class="form-control" id="date">
+  </div>
+  <div class="form-group">
+        <button type="submit" class="btn btn-primary from-control";>Search</button>
+  </div>
+  </form>
+  <h4 id='noData'></h4>
+  <table id='myTable' class="table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Player Name</th>
+        <th>Round</th>
+        <th>Player Move/Computer Move</th>
+        <th>Result</th>
+        <th>Player Score/Computer Score</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Date</th>
+        <th>Player Name</th>
+        <th>Round</th>
+        <th>Player Move/Computer Move</th>
+        <th>Result</th>
+        <th>Player Score/Computer Score</th>
+      </tr>
+
+    </tfoot>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+    	<p class='text-center'>&copy; 2016 Alar Laanep 165332CTF</p>
+</footer>
+</body>
+</html>

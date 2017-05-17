@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Rock, Paper, Scissors</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale = 1.0, user-scalable = no">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src='http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/script/script.js'></script>
+
+</head>
+<body onload='init();'>
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <div class="navbar-header">
+	    </div>
+		    <div id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/">HOME</a></li>
+		        <li><a href="#" id='startOver' value='startOver' onclick='init();'>START OVER</a></li>
+		        <li onclick="ShowScore()"><a href="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/scores.html" target="_blank">SCORES</a></li>
+		      </ul>
+		    </div>
+  		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class = "page-header">
+   			<h1 class = "text-center">
+      			Rock, Paper, Scissors 
+   			</h1>
+		</div>
+		<h1 class = "text-center" id='welcome'>Welcome to Rock, Paper, Scissors!</h1>
+  		<div class="row">
+    		<div class="myDiv col-xs-6 col-sm-4 text-center" style="background-color:lavender;">
+    			<div class='evenHeight'>
+    			<h4 id='playerHeading' class = "text-center">Player</h4>
+    			<div class="btn-group">
+	    			<button id='rock' class="userChoice btn btn-default",  value='rock'>rock</button>
+		  			<button id='paper' class='userChoice btn btn-default' value='paper'>paper</button>
+		  			<button id='scissors' class='userChoice btn btn-default'value='scissors'>scissors</button>
+		  		</div>
+		  		</div>
+	  			<img class='center-block img-responsive' id='userImage' src="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/img/chooseyourweapon.png"s alt='userImage'>
+    		</div>
+    		<div class="myDiv col-xs-6 col-sm-4 col-sm-push-4 text-center" style="background-color:lavender;">
+    			<div class='evenHeight'>
+    			<h4 class="text-center">Computer</h4>
+    			</div>
+    			<img class='center-block img-responsive' id='computerImage' src="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/img/chooseyourweapon.png" alt='computerImage'>
+    		</div>
+
+    		<div class="myDiv1 col-xs-12 col-sm-4 col-sm-pull-4" style="background-color:lavenderblush;">
+		    	<div class="col-xs-12 text-center">
+			    	<h4>Rounds: <span id='rounds'></span></h4>	        	
+			    </div>
+		        <div class="row">
+		            <div class="col-xs-6 text-center">
+			            <h4> Player Score: <div id='playerScore'>Score</div>
+			            </h4>
+			            
+			        </div>
+		            <div class="col-xs-6 text-center">
+			            <h4> Computer Score: <span id='computerScore'>Score</span> </h4>
+			            
+		            </div>
+		        </div>
+		        <div class="col-xs-12 text-center">
+			        <h4 id="res"><span id='result' class='results'>
+			    	</span></h4>
+			        
+			    </div>
+			     <div class="col-xs-12 text-center">
+			        <h4></h4>
+			    </div>   
+    		</div>
+    		
+  		</div>
+	</div>	
+  	<footer>
+    	<p class='text-center'>&copy; 2016 Alar Laanep 165332CTF</p>
+   	</footer>		
+</body>
+</html>

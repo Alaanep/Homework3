@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Rock, Paper, Scissors</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale = 1.0, user-scalable = no">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <div class="navbar-header">
+	    </div>
+		    <div id="myNavbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/">HOME</a></li>
+		        <li><a href="#" id='startOver' value='startOver' onclick='init();'>START OVER</a></li>
+		        <li onclick="ShowScore()"><a href="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/scores.html" target="_blank">SCORES</a></li>
+		      </ul>
+		    </div>
+  		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class = "page-header">
+   			<h1 class = "text-center">
+      			Rock, Paper, Scissors 
+   			</h1>
+		</div>
+		<div class='row text-center'>
+			<div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 text-center">
+				<form class="form-horizontal" action="http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/game.html">
+					<div class="form-group">
+						<label for='name'>Enter your name to start the Game</label>
+						<input type='text' id='name' class="form-control input-lg">
+					</div>
+					<div class="form-group">
+						<button id='startGameAgainstComputer' type="submit" class="btn btn-default">Play against computer</button>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-default">Play against other player</button>
+					</div>
+				</form>
+				<h4>Available players:</h4>
+				<div id='availablePlayers'>
+					<ul class="list-group">
+					  <li class="list-group-item"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  	<footer>
+    	<p class='text-center'>&copy; 2016 Alar Laanep 165332CTF</p>
+   	</footer>
+   	<script type="text/javascript" src='http://dijkstra.cs.ttu.ee/~Alar.Laanep/prax3/script/script.js'></script>		
+   	
+</body>
+</html>
