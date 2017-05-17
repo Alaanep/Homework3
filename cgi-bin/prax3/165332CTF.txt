@@ -1,0 +1,104 @@
+{
+    "rounds":[
+        {
+            "computermove":"paper",
+            "computerscore":1,
+            "playername":"Alar",
+            "result":"computer wins with paper!",
+            "time":"2017-05-16 22:43",
+            "usermove":"rock",
+            "userround":1,
+            "userscore":0
+        },
+        {
+            "computermove":"rock",
+            "computerscore":1,
+            "playername":"Alar",
+            "result":"Alar wins with paper!",
+            "time":"2017-05-16 22:43",
+            "usermove":"paper",
+            "userround":2,
+            "userscore":1
+        },
+        {
+            "computermove":"rock",
+            "computerscore":2,
+            "playername":"Alar",
+            "result":"computer wins with rock!",
+            "time":"2017-05-16 22:43",
+            "usermove":"scissors",
+            "userround":3,
+            "userscore":1
+        },
+        {
+            "computermove":"paper",
+            "computerscore":3,
+            "playername":"Alar",
+            "result":"computer wins with paper!",
+            "time":"2017-05-16 22:43",
+            "usermove":"rock",
+            "userround":4,
+            "userscore":1
+        },
+        {
+            "computermove":"paper",
+            "computerscore":3,
+            "playername":"Alar",
+            "result":"TIE!",
+            "time":"2017-05-16 22:43",
+            "usermove":"paper",
+            "userround":5,
+            "userscore":1
+        },
+        {
+            "computermove":"rock",
+            "computerscore":4,
+            "playername":"Alar",
+            "result":"computer wins with rock!",
+            "time":"2017-05-16 22:43",
+            "usermove":"scissors",
+            "userround":6,
+            "userscore":1
+        },
+        {
+            "computermove":"scissors",
+            "computerscore":5,
+            "playername":"Alar",
+            "result":"computer wins with scissors!",
+            "time":"2017-05-16 22:43",
+            "usermove":"paper",
+            "userround":7,
+            "userscore":1
+        },
+        {
+            "computermove":"paper",
+            "computerscore":6,
+            "playername":"Alar",
+            "result":"computer wins with paper!",
+            "time":"2017-05-16 22:43",
+            "usermove":"rock",
+            "userround":8,
+            "userscore":1
+        },
+        {
+            "computermove":"rock",
+            "computerscore":6,
+            "playername":"Alar",
+            "result":"Alar wins with paper!",
+            "time":"2017-05-16 22:43",
+            "usermove":"paper",
+            "userround":9,
+            "userscore":2
+        },
+        {
+            "computermove":"scissors",
+            "computerscore":6,
+            "playername":"Alar",
+            "result":"TIE!",
+            "time":"2017-05-16 22:43",
+            "usermove":"scissors",
+            "userround":10,
+            "userscore":2
+        }
+    ]
+}
